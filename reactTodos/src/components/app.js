@@ -43,7 +43,7 @@ export default class App extends React.Component {
   }
   createTask(task){
     this.state.todos.push({
-      task, // remember es2015 task: task = task
+      task, // remember es2015 task: task : task
       isCompleted: false
     });
     this.setState({ todos: this.state.todos });
