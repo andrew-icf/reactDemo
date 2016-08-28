@@ -6,7 +6,7 @@ export default class TodosListHeader extends React.Component {
         <thead>
           <tr>
             <th>Task</th>
-            <th>Action</th>
+            <th className="action">Action</th>
           </tr>
         </thead>
     );
