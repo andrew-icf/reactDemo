@@ -42,6 +42,7 @@ input {
   width: 6rem;
   color: #FFF;
   margin-left: 5rem;
+  margin-right: .5rem;
 }
 .delete {
   background-color: hsl(10, 95%, 50%);
@@ -58,9 +59,11 @@ input {
   border-radius: 10px;
   width: 6rem;
   color: #000;
+  margin-left: .5rem;
 }
 .action {
-  text-align: center; 
+  text-align: center;
+  padding-left: 5rem;
 }
 
 th {
